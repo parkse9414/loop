@@ -9,12 +9,12 @@ function setup() {
 
   var x;
 
-  x=100;
-  ellipse(100,100,50,50);
+  x = 1;
+  ellipse(x * 100,100,50,50);
   
-  x=200;
-  ellipse(200,100,50,50);
+  x = 2;
+  ellipse(x * 200,100,50,50);
   
-  x=300;
-  ellipse(300,100,50,50);
+  x = 3;
+  ellipse(x * 300,100,50,50);
 }
